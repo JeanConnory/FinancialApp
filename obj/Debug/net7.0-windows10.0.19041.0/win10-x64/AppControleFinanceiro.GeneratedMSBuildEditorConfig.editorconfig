@@ -39,3 +39,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppControleFinanceiro.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/Mobile/AppControleFinanceiro/Views/TransactionAdd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppControleFinanceiro.Views.TransactionAdd.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TransactionAdd.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TransactionAdd.xaml
+
+[E:/Mobile/AppControleFinanceiro/Views/TransactionEdit.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppControleFinanceiro.Views.TransactionEdit.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TransactionEdit.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TransactionEdit.xaml
+
+[E:/Mobile/AppControleFinanceiro/Views/TransactionList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppControleFinanceiro.Views.TransactionList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TransactionList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TransactionList.xaml
