@@ -1,11 +1,16 @@
-﻿obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
+﻿obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\close.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\close.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\close.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\close.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\close.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml

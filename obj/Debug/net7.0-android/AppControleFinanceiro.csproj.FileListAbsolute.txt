@@ -970,3 +970,8 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\android\assets\System.R
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\close.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\close.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\close.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\close.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\close.png
