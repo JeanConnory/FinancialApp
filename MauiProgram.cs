@@ -1,5 +1,4 @@
 ﻿using AppControleFinanceiro.Repositories;
-using Java.Security;
 using LiteDB;
 using Microsoft.Extensions.Logging;
 
