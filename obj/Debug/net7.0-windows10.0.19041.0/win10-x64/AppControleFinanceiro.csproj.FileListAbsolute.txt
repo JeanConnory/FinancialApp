@@ -323,3 +323,8 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\q
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LiteDB.dll
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-100.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-125.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-150.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-200.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-400.png

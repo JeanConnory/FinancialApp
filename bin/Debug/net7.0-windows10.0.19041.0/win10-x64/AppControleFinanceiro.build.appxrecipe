@@ -865,6 +865,21 @@
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-100.png">
+      <PackagePath>close.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-125.png">
+      <PackagePath>close.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-150.png">
+      <PackagePath>close.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-200.png">
+      <PackagePath>close.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-400.png">
+      <PackagePath>close.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>

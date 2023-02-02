@@ -29,13 +29,13 @@
     <AppXManifest Include="E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-02T01:33:54.464</Modified>
+      <Modified>2023-02-02T19:05:58.301</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-02T01:33:53.761</Modified>
+      <Modified>2023-02-02T19:05:57.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppControleFinanceiro.runtimeconfig.json">
       <PackagePath>AppControleFinanceiro.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppControleFinanceiro.dll">
       <PackagePath>AppControleFinanceiro.dll</PackagePath>
-      <Modified>2023-02-02T01:33:52.173</Modified>
+      <Modified>2023-02-02T19:05:55.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppControleFinanceiro.exe</PackagePath>
-      <Modified>2023-02-02T01:33:52.236</Modified>
+      <Modified>2023-02-02T19:05:55.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micha\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -923,7 +923,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\AppControleFinanceiro.deps.json">
       <PackagePath>AppControleFinanceiro.deps.json</PackagePath>
-      <Modified>2023-02-02T01:33:54.273</Modified>
+      <Modified>2023-02-02T19:05:58.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -971,207 +971,227 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-02-01T01:13:10.532</Modified>
+      <Modified>2023-02-02T18:58:38.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.856</Modified>
+      <Modified>2023-02-02T18:58:39.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.877</Modified>
+      <Modified>2023-02-02T18:58:39.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.893</Modified>
+      <Modified>2023-02-02T18:58:39.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.925</Modified>
+      <Modified>2023-02-02T18:58:39.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:11.048</Modified>
+      <Modified>2023-02-02T18:58:39.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.605</Modified>
+      <Modified>2023-02-02T18:58:39.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.608</Modified>
+      <Modified>2023-02-02T18:58:39.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.630</Modified>
+      <Modified>2023-02-02T18:58:39.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.611</Modified>
+      <Modified>2023-02-02T18:58:39.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.615</Modified>
+      <Modified>2023-02-02T18:58:39.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.581</Modified>
+      <Modified>2023-02-02T18:58:39.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.584</Modified>
+      <Modified>2023-02-02T18:58:39.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.602</Modified>
+      <Modified>2023-02-02T18:58:39.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.588</Modified>
+      <Modified>2023-02-02T18:58:39.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.592</Modified>
+      <Modified>2023-02-02T18:58:39.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.536</Modified>
+      <Modified>2023-02-02T18:58:38.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.541</Modified>
+      <Modified>2023-02-02T18:58:38.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.544</Modified>
+      <Modified>2023-02-02T18:58:39.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.549</Modified>
+      <Modified>2023-02-02T18:58:39.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.556</Modified>
+      <Modified>2023-02-02T18:58:39.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.560</Modified>
+      <Modified>2023-02-02T18:58:39.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.563</Modified>
+      <Modified>2023-02-02T18:58:39.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.578</Modified>
+      <Modified>2023-02-02T18:58:39.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.566</Modified>
+      <Modified>2023-02-02T18:58:39.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.570</Modified>
+      <Modified>2023-02-02T18:58:39.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.694</Modified>
+      <Modified>2023-02-02T18:58:39.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.702</Modified>
+      <Modified>2023-02-02T18:58:39.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.710</Modified>
+      <Modified>2023-02-02T18:58:39.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.720</Modified>
+      <Modified>2023-02-02T18:58:39.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.746</Modified>
+      <Modified>2023-02-02T18:58:39.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.662</Modified>
+      <Modified>2023-02-02T18:58:39.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.666</Modified>
+      <Modified>2023-02-02T18:58:39.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.671</Modified>
+      <Modified>2023-02-02T18:58:39.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.677</Modified>
+      <Modified>2023-02-02T18:58:39.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.688</Modified>
+      <Modified>2023-02-02T18:58:39.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.638</Modified>
+      <Modified>2023-02-02T18:58:39.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.642</Modified>
+      <Modified>2023-02-02T18:58:39.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.646</Modified>
+      <Modified>2023-02-02T18:58:39.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.651</Modified>
+      <Modified>2023-02-02T18:58:39.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.657</Modified>
+      <Modified>2023-02-02T18:58:39.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.755</Modified>
+      <Modified>2023-02-02T18:58:39.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.766</Modified>
+      <Modified>2023-02-02T18:58:39.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.778</Modified>
+      <Modified>2023-02-02T18:58:39.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.799</Modified>
+      <Modified>2023-02-02T18:58:39.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.841</Modified>
+      <Modified>2023-02-02T18:58:39.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-100.png">
+      <PackagePath>close.scale-100.png</PackagePath>
+      <Modified>2023-02-02T18:58:38.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-125.png">
+      <PackagePath>close.scale-125.png</PackagePath>
+      <Modified>2023-02-02T18:58:38.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-150.png">
+      <PackagePath>close.scale-150.png</PackagePath>
+      <Modified>2023-02-02T18:58:38.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-200.png">
+      <PackagePath>close.scale-200.png</PackagePath>
+      <Modified>2023-02-02T18:58:38.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-400.png">
+      <PackagePath>close.scale-400.png</PackagePath>
+      <Modified>2023-02-02T18:58:38.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.529</Modified>
+      <Modified>2023-02-02T18:58:38.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.543</Modified>
+      <Modified>2023-02-02T18:58:39.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.562</Modified>
+      <Modified>2023-02-02T18:58:39.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.587</Modified>
+      <Modified>2023-02-02T18:58:39.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-02-01T01:13:10.654</Modified>
+      <Modified>2023-02-02T18:58:39.143</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
