@@ -1,13 +1,16 @@
-
-
+using AppControleFinanceiro.Models;
+using AppControleFinanceiro.Repositories;
 using System.Text;
 
 namespace AppControleFinanceiro.Views;
 
 public partial class TransactionAdd : ContentPage
 {
-	public TransactionAdd()
+	private ITransactionRepository _transactionRepository;
+
+	public TransactionAdd(ITransactionRepository repository)
 	{
+		_transactionRepository = repository;
 		InitializeComponent();
 	}
 
@@ -18,7 +21,28 @@ public partial class TransactionAdd : ContentPage
 
 	private void OnButtonClicked_Save(object sender, EventArgs e)
 	{
+		if (IsValidData() == false)
+			return;
 
+		SaveTransactionInDatabase();
+
+		Navigation.PopModalAsync();
+
+		var count = _transactionRepository.GetAll().Count;
+		App.Current.MainPage.DisplayAlert("Mensagem!", $"Existe(m) {count} registro(s) no banco!", "OK");
+	}
+
+	private void SaveTransactionInDatabase()
+	{
+		Transaction transaction = new Transaction()
+		{
+			Type = RadioIncome.IsChecked ? TransactionType.Income : TransactionType.Expense,
+			Name = EntryName.Text,
+			Date = DatePickerDate.Date,
+			Value = double.Parse(EntryValue.Text)
+		};
+
+		_transactionRepository.Add(transaction);
 	}
 
 	private bool IsValidData()
@@ -38,7 +62,7 @@ public partial class TransactionAdd : ContentPage
 			valid = false;
 		}
 
-		if (string.IsNullOrEmpty(EntryValue.Text) && !double.TryParse(EntryValue.Text, out double result))
+		if (!string.IsNullOrEmpty(EntryValue.Text) && !double.TryParse(EntryValue.Text, out double result))
 		{
 			sb.AppendLine("O campo 'Valor' é inválido!");
 			valid = false;
@@ -46,6 +70,7 @@ public partial class TransactionAdd : ContentPage
 
 		if(valid == false)
 		{
+			LabelError.IsVisible = true;
 			LabelError.Text = sb.ToString();
 		}
 

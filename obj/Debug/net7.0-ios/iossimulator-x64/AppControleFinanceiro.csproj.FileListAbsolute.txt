@@ -1,6 +1,7 @@
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.runtimeconfig.json
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.pdb
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\LiteDB.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -235,6 +236,9 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetize
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\close.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\close@2x.png
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\close@3x.png
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
@@ -268,6 +272,3 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\refint\App
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.pdb
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.genruntimeconfig.cache
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\ref\AppControleFinanceiro.dll
-E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\close.png
-E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\close@2x.png
-E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\close@3x.png

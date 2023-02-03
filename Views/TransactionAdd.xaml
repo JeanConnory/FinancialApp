@@ -33,6 +33,7 @@
         </Border>
         <Label
             x:Name="LabelError"
+            Margin="30,0"
             IsVisible="False"
             TextColor="Red" />
         <Grid Margin="30,0" ColumnDefinitions="*,*">

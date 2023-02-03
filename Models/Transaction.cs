@@ -13,12 +13,12 @@ namespace AppControleFinanceiro.Models
 
 		public DateTimeOffset Date { get; set; } //DatetimeOffset independe do fuso horário
 
-		public decimal Value { get; set; }
+		public double Value { get; set; }
 	}
 
 	public enum TransactionType
 	{
 		Income,
-		Expenses
+		Expense
 	}
 }
