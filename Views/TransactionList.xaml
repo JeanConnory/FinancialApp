@@ -11,23 +11,29 @@
     </ContentPage.Resources>
 
     <VerticalStackLayout>
-        <Grid Padding="15" ColumnDefinitions="50, *, Auto">
-            <Label
-                BackgroundColor="White"
-                FontSize="20"
-                HorizontalOptions="Center"
-                Text="S"
-                VerticalOptions="Center" />
-            <VerticalStackLayout Grid.Column="1">
-                <Label Text="Salário" />
-                <Label Text="02/02/2023" TextColor="#BABABA" />
-            </VerticalStackLayout>
-            <Label
-                Grid.Column="2"
-                Text="R$ 3.600,00"
-                TextColor="{StaticResource Tertiary}"
-                VerticalOptions="Center" />
-        </Grid>
+        <CollectionView x:Name="CollectionViewTransactions">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="15" ColumnDefinitions="50, *, Auto">
+                        <Label
+                            BackgroundColor="White"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="S"
+                            VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" TextColor="#BABABA" />
+                        </VerticalStackLayout>
+                        <Label
+                            Grid.Column="2"
+                            Text="{Binding Value, StringFormat='{0:C}'}"
+                            TextColor="{StaticResource Tertiary}"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
         <Button
             Clicked="OnButtonClicked_To_TransactionEdit"
@@ -47,10 +53,10 @@
                     Text="Saldo"
                     TextColor="#979797" />
                 <Label
+                    x:Name="LabelBalance"
                     Grid.Row="1"
                     Margin="10,0"
                     FontSize="36"
-                    Text="R$ 2.760,00"
                     TextColor="White" />
                 <Button
                     Grid.RowSpan="2"
@@ -71,10 +77,10 @@
                     Text="Receitas"
                     TextColor="#979797" />
                 <Label
+                    x:Name="LabelIncome"
                     Grid.Row="4"
                     Margin="10,0"
                     FontSize="12"
-                    Text="R$ 3.600,00"
                     TextColor="White" />
 
                 <Label
@@ -84,10 +90,10 @@
                     Text="Despesas"
                     TextColor="#979797" />
                 <Label
+                    x:Name="LabelExpense"
                     Grid.Row="4"
                     Grid.Column="1"
                     FontSize="12"
-                    Text="R$ 840,00"
                     TextColor="White" />
             </Grid>
         </Border>

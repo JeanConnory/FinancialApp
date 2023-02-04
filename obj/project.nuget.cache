@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XPPjkVoWpWtA0sypciGun5wT7Qqp7EzAqVRTW4nfschgEWloEsNw+WuTYIgEzPA3Fq9wT5yNoaQRtBVq/6e1sQ==",
+  "dgSpecHash": "VLdMnUNf4VGPnSRfzBnugda0BFJLaRK6fPB6RVBylS+7rGT/pmKzwWavbByLxRx+sVF5jLjqcpe5dk4JPo2Fzw==",
   "success": true,
   "projectFilePath": "E:\\Mobile\\AppControleFinanceiro\\AppControleFinanceiro.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\litedb\\5.0.15\\litedb.5.0.15.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
