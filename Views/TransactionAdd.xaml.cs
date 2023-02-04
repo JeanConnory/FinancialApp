@@ -15,7 +15,7 @@ public partial class TransactionAdd : ContentPage
 		InitializeComponent();
 	}
 
-	private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+	private void TapGestureRecognizerTapped_To_Close(object sender, TappedEventArgs e)
 	{
 		Navigation.PopModalAsync();
     }
