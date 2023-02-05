@@ -31,9 +31,6 @@ public partial class TransactionAdd : ContentPage
 
 		//Publisher
 		WeakReferenceMessenger.Default.Send<string>(string.Empty);
-
-		var count = _transactionRepository.GetAll().Count;
-		App.Current.MainPage.DisplayAlert("Mensagem!", $"Existe(m) {count} registro(s) no banco!", "OK");
 	}
 
 	private void SaveTransactionInDatabase()

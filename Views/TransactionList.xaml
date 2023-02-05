@@ -17,7 +17,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <VerticalStackLayout>
+    <Grid RowDefinitions="*, 200">
         <CollectionView x:Name="CollectionViewTransactions">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -36,8 +36,10 @@
                             </Border.GestureRecognizers>
                             <Label
                                 Margin="11,2"
-                                Padding="2"
-                                FontSize="20"
+                                Padding="{OnPlatform Default=2,
+                                                     Android='2.5,6'}"
+                                FontSize="{OnPlatform Default=20,
+                                                      Android=12}"
                                 Text="{Binding Name, Converter={StaticResource TransactionNameConverter}}" />
                         </Border>
                         <VerticalStackLayout Grid.Column="1">
@@ -55,6 +57,7 @@
         </CollectionView>
 
         <Border
+            Grid.Row="1"
             Margin="10"
             Padding="10,15"
             BackgroundColor="{StaticResource Black}"
@@ -78,7 +81,8 @@
                     Padding="0"
                     Clicked="OnButtonClicked_To_TransactionAdd"
                     CornerRadius="27"
-                    FontSize="48"
+                    FontSize="{OnPlatform Default=48,
+                                          Android=36}"
                     HeightRequest="54"
                     HorizontalOptions="Center"
                     Text="+"
@@ -111,5 +115,5 @@
                     TextColor="White" />
             </Grid>
         </Border>
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>
