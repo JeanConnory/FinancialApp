@@ -32,7 +32,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://172.19.10.157:8081/nugetserver/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

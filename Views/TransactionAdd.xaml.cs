@@ -1,5 +1,6 @@
 using AppControleFinanceiro.Models;
 using AppControleFinanceiro.Repositories;
+using AppControleFinanceiro.ViewModels;
 using CommunityToolkit.Mvvm.Messaging;
 using System.Text;
 
@@ -9,10 +10,11 @@ public partial class TransactionAdd : ContentPage
 {
 	private ITransactionRepository _transactionRepository;
 
-	public TransactionAdd(ITransactionRepository repository)
+	public TransactionAdd(ITransactionRepository repository, TransactionAddViewModel vm)
 	{
 		_transactionRepository = repository;
 		InitializeComponent();
+		BindingContext = vm;
 	}
 
 	private void TapGestureRecognizerTapped_To_Close(object sender, TappedEventArgs e)
@@ -40,7 +42,7 @@ public partial class TransactionAdd : ContentPage
 			Type = RadioIncome.IsChecked ? TransactionType.Income : TransactionType.Expense,
 			Name = EntryName.Text,
 			Date = DatePickerDate.Date,
-			Value = double.Parse(EntryValue.Text)
+			Value = double.Parse(EntryValue.Text.Substring(2).Trim())
 		};
 
 		_transactionRepository.Add(transaction);
@@ -57,13 +59,13 @@ public partial class TransactionAdd : ContentPage
 			sb.AppendLine("O campo 'Nome' deve ser preenchido!");
 			valid = false;
 		}
-		if (string.IsNullOrEmpty(EntryValue.Text) || string.IsNullOrWhiteSpace(EntryValue.Text))
+		if (string.IsNullOrEmpty(EntryValue.Text.Substring(2).Trim()) || string.IsNullOrWhiteSpace(EntryValue.Text.Substring(2).Trim()))
 		{
 			sb.AppendLine("O campo 'Valor' deve ser preenchido!");
 			valid = false;
 		}
 
-		if (!string.IsNullOrEmpty(EntryValue.Text) && !double.TryParse(EntryValue.Text, out double result))
+		if (!string.IsNullOrEmpty(EntryValue.Text.Substring(2).Trim()) && !double.TryParse(EntryValue.Text.Substring(2).Trim(), out double result))
 		{
 			sb.AppendLine("O campo 'Valor' é inválido!");
 			valid = false;
