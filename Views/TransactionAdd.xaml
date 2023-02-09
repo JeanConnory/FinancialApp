@@ -67,7 +67,8 @@
             Margin="15,0"
             Keyboard="Numeric"
             Placeholder="Valor"
-            Text="{Binding NumbertoMoney, Converter={StaticResource currencyConverter}}" />
+            Text="{Binding NumbertoMoney, Converter={StaticResource currencyConverter}}"
+            TextChanged="EntryValue_TextChanged_LastCharCursor" />
 
         <Button
             Margin="15,0"

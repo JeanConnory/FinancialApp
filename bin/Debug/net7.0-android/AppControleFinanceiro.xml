@@ -4,5 +4,11 @@
         <name>AppControleFinanceiro</name>
     </assembly>
     <members>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionAddViewModel.NumbertoMoney">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionAddViewModel.numbertoMoney"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.NumbertoMoney">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.numbertoMoney"/>
+        </member>
     </members>
 </doc>

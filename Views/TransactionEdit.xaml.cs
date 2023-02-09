@@ -1,5 +1,6 @@
 using AppControleFinanceiro.Models;
 using AppControleFinanceiro.Repositories;
+using AppControleFinanceiro.ViewModels;
 using CommunityToolkit.Mvvm.Messaging;
 using System.Text;
 
@@ -10,10 +11,11 @@ public partial class TransactionEdit : ContentPage
 	private ITransactionRepository _transactionRepository;
 	private Transaction _transaction;
 
-	public TransactionEdit(ITransactionRepository repository)
+	public TransactionEdit(ITransactionRepository repository, TransactionEditViewModel vm)
 	{
 		_transactionRepository = repository;
 		InitializeComponent();
+		BindingContext = vm;
 	}
 
 	public void SetTransactionToEdit(Transaction transaction)
@@ -27,12 +29,13 @@ public partial class TransactionEdit : ContentPage
 
 		EntryName.Text = transaction.Name;
 		DatePickerDate.Date = transaction.Date.Date;
-		EntryValue.Text = transaction.Value.ToString();
+		EntryValue.Text = transaction.Value.ToString("C");
 	}
 
 	private void TapGestureRecognizerTapped_To_Close(object sender, TappedEventArgs e)
 	{
 		Navigation.PopModalAsync();
+		CloseKeyboard();
 	}
 
 	private void OnButtonClicked_Save(object sender, EventArgs e)
@@ -43,9 +46,16 @@ public partial class TransactionEdit : ContentPage
 		SaveTransactionInDatabase();
 
 		Navigation.PopModalAsync();
+		CloseKeyboard();
 
 		//Publisher
 		WeakReferenceMessenger.Default.Send<string>(string.Empty);
+	}
+
+	private void CloseKeyboard()
+	{
+		EntryName.IsEnabled = false;
+		EntryValue.IsEnabled = false;
 	}
 
 	private void SaveTransactionInDatabase()
@@ -56,7 +66,7 @@ public partial class TransactionEdit : ContentPage
 			Type = RadioIncome.IsChecked ? TransactionType.Income : TransactionType.Expense,
 			Name = EntryName.Text,
 			Date = DatePickerDate.Date,
-			Value = double.Parse(EntryValue.Text)
+			Value = double.Parse(EntryValue.Text.Substring(2).Trim())
 		};
 
 		_transactionRepository.Update(transaction);
@@ -73,13 +83,13 @@ public partial class TransactionEdit : ContentPage
 			sb.AppendLine("O campo 'Nome' deve ser preenchido!");
 			valid = false;
 		}
-		if (string.IsNullOrEmpty(EntryValue.Text) || string.IsNullOrWhiteSpace(EntryValue.Text))
+		if (string.IsNullOrEmpty(EntryValue.Text.Substring(2).Trim()) || string.IsNullOrWhiteSpace(EntryValue.Text.Substring(2).Trim()))
 		{
 			sb.AppendLine("O campo 'Valor' deve ser preenchido!");
 			valid = false;
 		}
 
-		if (!string.IsNullOrEmpty(EntryValue.Text) && !double.TryParse(EntryValue.Text, out double result))
+		if (!string.IsNullOrEmpty(EntryValue.Text.Substring(2).Trim()) && !double.TryParse(EntryValue.Text.Substring(2).Trim(), out double result))
 		{
 			sb.AppendLine("O campo 'Valor' é inválido!");
 			valid = false;
@@ -92,5 +102,10 @@ public partial class TransactionEdit : ContentPage
 		}
 
 		return valid;
+	}
+
+	private void EntryValue_TextChanged_LastCharCursor(object sender, TextChangedEventArgs e)
+	{
+		EntryValue.CursorPosition = EntryValue?.Text?.Length ?? 0;
 	}
 }

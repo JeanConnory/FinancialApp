@@ -35,11 +35,13 @@
                                 <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="TapGestureRecognizerTapped_To_Delete" />
                             </Border.GestureRecognizers>
                             <Label
-                                Margin="11,2"
+                                Margin="{OnPlatform WinUI='9,2',
+                                                    Default='10,2'}"
                                 Padding="{OnPlatform Default=2,
                                                      Android='2.5,6'}"
-                                FontSize="{OnPlatform Default=20,
-                                                      Android=12}"
+                                FontSize="{OnPlatform Default=19,
+                                                      Android=14}"
+                                HorizontalOptions="CenterAndExpand"
                                 Text="{Binding Name, Converter={StaticResource TransactionNameConverter}}" />
                         </Border>
                         <VerticalStackLayout Grid.Column="1">

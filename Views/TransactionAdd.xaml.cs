@@ -20,7 +20,8 @@ public partial class TransactionAdd : ContentPage
 	private void TapGestureRecognizerTapped_To_Close(object sender, TappedEventArgs e)
 	{
 		Navigation.PopModalAsync();
-    }
+		CloseKeyboard();
+	}
 
 	private void OnButtonClicked_Save(object sender, EventArgs e)
 	{
@@ -31,8 +32,16 @@ public partial class TransactionAdd : ContentPage
 
 		Navigation.PopModalAsync();
 
+		CloseKeyboard();
+
 		//Publisher
 		WeakReferenceMessenger.Default.Send<string>(string.Empty);
+	}
+
+	private void CloseKeyboard()
+	{
+		EntryName.IsEnabled = false;
+		EntryValue.IsEnabled = false;
 	}
 
 	private void SaveTransactionInDatabase()
@@ -78,5 +87,10 @@ public partial class TransactionAdd : ContentPage
 		}
 
 		return valid;
+	}
+
+	private void EntryValue_TextChanged_LastCharCursor(object sender, TextChangedEventArgs e)
+	{
+		EntryValue.CursorPosition = EntryValue?.Text?.Length ?? 0;
 	}
 }

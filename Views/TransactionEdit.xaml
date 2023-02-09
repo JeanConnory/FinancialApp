@@ -3,7 +3,17 @@
     x:Class="AppControleFinanceiro.Views.TransactionEdit"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="TransactionEdit">
+    xmlns:local="clr-namespace:AppControleFinanceiro.ViewModels"
+    xmlns:util="clr-namespace:AppControleFinanceiro.Libraries.Converters"
+    Title="TransactionEdit"
+    x:DataType="local:TransactionAddViewModel">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <util:CurrencyConverter x:Key="currencyConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <VerticalStackLayout Spacing="10">
         <Border
             Margin="15"
@@ -54,7 +64,10 @@
         <Entry
             x:Name="EntryValue"
             Margin="15,0"
-            Placeholder="Valor" />
+            Keyboard="Numeric"
+            Placeholder="Valor"
+            Text="{Binding NumbertoMoney, Converter={StaticResource currencyConverter}}"
+            TextChanged="EntryValue_TextChanged_LastCharCursor" />
 
         <Button
             Margin="15,0"
