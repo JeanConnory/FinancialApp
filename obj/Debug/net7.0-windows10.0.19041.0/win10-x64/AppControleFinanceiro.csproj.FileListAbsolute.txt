@@ -6,6 +6,7 @@ E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\A
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppControleFinanceiro.pdb
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LiteDB.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -328,4 +329,3 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\q
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll

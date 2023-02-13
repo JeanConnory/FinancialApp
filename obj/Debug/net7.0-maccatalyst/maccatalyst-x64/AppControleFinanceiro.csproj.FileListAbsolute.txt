@@ -1,6 +1,7 @@
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\AppControleFinanceiro.runtimeconfig.json
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\AppControleFinanceiro.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\AppControleFinanceiro.pdb
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\LiteDB.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll

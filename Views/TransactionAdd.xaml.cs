@@ -1,3 +1,4 @@
+using AppControleFinanceiro.Libraries.Utils.FixBugs;
 using AppControleFinanceiro.Models;
 using AppControleFinanceiro.Repositories;
 using AppControleFinanceiro.ViewModels;
@@ -19,8 +20,8 @@ public partial class TransactionAdd : ContentPage
 
 	private void TapGestureRecognizerTapped_To_Close(object sender, TappedEventArgs e)
 	{
+		KeyboardFixBugs.HideKeyboard();
 		Navigation.PopModalAsync();
-		CloseKeyboard();
 	}
 
 	private void OnButtonClicked_Save(object sender, EventArgs e)
@@ -30,18 +31,11 @@ public partial class TransactionAdd : ContentPage
 
 		SaveTransactionInDatabase();
 
+		KeyboardFixBugs.HideKeyboard();
 		Navigation.PopModalAsync();
-
-		CloseKeyboard();
 
 		//Publisher
 		WeakReferenceMessenger.Default.Send<string>(string.Empty);
-	}
-
-	private void CloseKeyboard()
-	{
-		EntryName.IsEnabled = false;
-		EntryValue.IsEnabled = false;
 	}
 
 	private void SaveTransactionInDatabase()
