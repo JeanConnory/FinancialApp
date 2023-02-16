@@ -50,10 +50,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Libraries\Converters\CurrencyConverter.cs" />
 	  <Compile Remove="Libraries\ObservableObject.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Bertuzzi.MAUI.ConvertersPack" Version="1.0.0" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="4.0.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
 		<PackageReference Include="LiteDB" Version="5.0.15" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />

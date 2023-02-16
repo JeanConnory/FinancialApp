@@ -6,13 +6,13 @@
     xmlns:local="clr-namespace:AppControleFinanceiro.ViewModels"
     xmlns:util="clr-namespace:AppControleFinanceiro.Libraries.Converters"
     Title="TransactionEdit"
-    x:DataType="local:TransactionAddViewModel">
+    x:DataType="local:TransactionEditViewModel">
 
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <ResourceDictionary>
             <util:CurrencyConverter x:Key="currencyConverter" />
         </ResourceDictionary>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
 
     <VerticalStackLayout Spacing="10">
         <Border

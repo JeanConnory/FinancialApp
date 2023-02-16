@@ -272,3 +272,6 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\refint\App
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.pdb
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.genruntimeconfig.cache
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\ref\AppControleFinanceiro.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Bertuzzi.MAUI.ConvertersPack.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll

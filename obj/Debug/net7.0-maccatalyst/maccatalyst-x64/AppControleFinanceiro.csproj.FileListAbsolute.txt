@@ -262,3 +262,6 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\AppControleFinanceiro.pdb
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\AppControleFinanceiro.genruntimeconfig.cache
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\AppControleFinanceiro.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Bertuzzi.MAUI.ConvertersPack.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Core.dll

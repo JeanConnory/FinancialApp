@@ -12,7 +12,7 @@ namespace AppControleFinanceiro.Libraries.Converters
 	{
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{
-			NumberFormatInfo nfi = new CultureInfo("pt-BR").NumberFormat;
+			//NumberFormatInfo nfi = new CultureInfo("pt-BR").NumberFormat;
 			return Decimal.Parse(value.ToString()).ToString("C", nfi);
 		}
 

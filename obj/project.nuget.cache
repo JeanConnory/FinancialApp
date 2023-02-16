@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "e0/bKlTkkLPNxeUfOCuhH2ctvA0KCOrzxqbDYiVzGUGvtpPjQ015NByroMXx7ZnGmntf8rQwaR321zXVT2hglQ==",
+  "dgSpecHash": "MXxgUn5bPB1rozaPfjcT2iM4dqARwEHoH5/A6VrnciBaIe2ePvDg6I2Qtgh6alAzIMquF3wllrtbebnvE8vstQ==",
   "success": true,
   "projectFilePath": "E:\\Mobile\\AppControleFinanceiro\\AppControleFinanceiro.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\bertuzzi.maui.converterspack\\1.0.0\\bertuzzi.maui.converterspack.1.0.0.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\communitytoolkit.maui\\4.0.0\\communitytoolkit.maui.4.0.0.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\communitytoolkit.maui.core\\4.0.0\\communitytoolkit.maui.core.4.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\litedb\\5.0.15\\litedb.5.0.15.nupkg.sha512",
@@ -21,6 +24,7 @@
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.52\\microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
