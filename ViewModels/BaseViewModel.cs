@@ -14,7 +14,7 @@ namespace AppControleFinanceiro.ViewModels
         public INavigation Navigation { get; set; }
 
         [ObservableProperty]
-        public Transaction _transaction;
+        public Transaction transactionProp;
 
 
     }

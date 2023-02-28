@@ -3,16 +3,20 @@
     x:Class="AppControleFinanceiro.Views.TransactionEdit"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converterPack="clr-namespace:Bertuzzi.MAUI.ConvertersPack;assembly=Bertuzzi.MAUI.ConvertersPack"
     xmlns:local="clr-namespace:AppControleFinanceiro.ViewModels"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:util="clr-namespace:AppControleFinanceiro.Libraries.Converters"
     Title="TransactionEdit"
     x:DataType="local:TransactionEditViewModel">
 
-    <!--<ContentPage.Resources>
+    <ContentPage.Resources>
         <ResourceDictionary>
-            <util:CurrencyConverter x:Key="currencyConverter" />
+            <converterPack:CurrencyConverter x:Key="CurrencyConverter" />
+            <!--<util:CurrencyConverter x:Key="currencyConverter" />-->
         </ResourceDictionary>
-    </ContentPage.Resources>-->
+    </ContentPage.Resources>
+
 
     <VerticalStackLayout Spacing="10">
         <Border
@@ -35,7 +39,7 @@
                     Source="close.png"
                     WidthRequest="17">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizerTapped_To_Close" />
+                        <TapGestureRecognizer Command="{Binding TapCloseCommand}" />
                     </Image.GestureRecognizers>
                 </Image>
             </Grid>
@@ -43,35 +47,48 @@
         <Label
             x:Name="LabelError"
             Margin="30,0"
-            IsVisible="False"
+            IsVisible="{Binding LabelErrorIsVisible}"
+            Text="{Binding LabelError}"
             TextColor="Red" />
         <Grid Margin="30,0" ColumnDefinitions="*,*">
             <RadioButton
                 x:Name="RadioIncome"
                 Content="Receita"
-                IsChecked="True" />
+                IsChecked="{Binding RadioIncome}" />
             <RadioButton
                 x:Name="RadioExpense"
                 Grid.Column="1"
                 Content="Despesa"
-                HorizontalOptions="End" />
+                HorizontalOptions="End"
+                IsChecked="{Binding RadioExpense}" />
         </Grid>
         <Entry
             x:Name="EntryName"
             Margin="15,0"
-            Placeholder="Nome" />
-        <DatePicker x:Name="DatePickerDate" Margin="{OnPlatform Default='15,0', MacCatalyst='15,15,15,0'}" />
+            Placeholder="Nome"
+            Text="{Binding Name}" />
+        <DatePicker
+            x:Name="DatePickerDate"
+            Margin="{OnPlatform Default='15,0',
+                                MacCatalyst='15,15,15,0'}"
+            Date="{Binding DataTransaction}"
+            Format="dd/MM/yyyy" />
         <Entry
             x:Name="EntryValue"
             Margin="15,0"
             Keyboard="Numeric"
             Placeholder="Valor"
-            Text="{Binding NumbertoMoney, Converter={StaticResource currencyConverter}}"
-            TextChanged="EntryValue_TextChanged_LastCharCursor" />
-
+            Text="{Binding ValueTransaction, Converter={StaticResource CurrencyConverter}}">
+            <Entry.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    Command="{Binding CursorEntryCommand}"
+                    CommandParameter="{Binding Source={x:Reference EntryValue}}"
+                    EventName="TextChanged" />
+            </Entry.Behaviors>
+        </Entry>
         <Button
             Margin="15,0"
-            Clicked="OnButtonClicked_Save"
+            Command="{Binding AddCommand}"
             HorizontalOptions="Center"
             Text="Salvar" />
     </VerticalStackLayout>

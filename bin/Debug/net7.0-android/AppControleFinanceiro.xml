@@ -10,8 +10,8 @@
         <member name="P:AppControleFinanceiro.ViewModels.BaseViewModel.Title">
             <inheritdoc cref="F:AppControleFinanceiro.ViewModels.BaseViewModel._title"/>
         </member>
-        <member name="P:AppControleFinanceiro.ViewModels.BaseViewModel.Transaction">
-            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.BaseViewModel._transaction"/>
+        <member name="P:AppControleFinanceiro.ViewModels.BaseViewModel.TransactionProp">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.BaseViewModel.transactionProp"/>
         </member>
         <member name="P:AppControleFinanceiro.ViewModels.TransactionAddViewModel.RadioIncome">
             <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionAddViewModel.radioIncome"/>
@@ -52,8 +52,44 @@
         <member name="P:AppControleFinanceiro.ViewModels.TransactionAddViewModel.CursorEntryCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionAddViewModel.CursorEntry(Microsoft.Maui.Controls.Entry)"/>.</summary>
         </member>
-        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.NumbertoMoney">
-            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.numbertoMoney"/>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.RadioIncome">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.radioIncome"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.RadioExpense">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.radioExpense"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.Name">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.name"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.DataTransaction">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.dataTransaction"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.ValueTransaction">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.valueTransaction"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.LabelError">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.labelError"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.LabelErrorIsVisible">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.labelErrorIsVisible"/>
+        </member>
+        <member name="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.tapCloseCommand">
+            <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.TapCloseCommand"/>.</summary>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.TapCloseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionEditViewModel.TapClose"/>.</summary>
+        </member>
+        <member name="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.addCommand">
+            <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionEditViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:AppControleFinanceiro.ViewModels.TransactionEditViewModel.cursorEntryCommand">
+            <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.CursorEntryCommand"/>.</summary>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.CursorEntryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionEditViewModel.CursorEntry(Microsoft.Maui.Controls.Entry)"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>
