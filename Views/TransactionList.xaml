@@ -4,7 +4,10 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:AppControleFinanceiro.Libraries.Converters"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:viewmodel="clr-namespace:AppControleFinanceiro.ViewModels"
     Title="TransactionList"
+    x:DataType="viewmodel:TransactionListViewModel"
     NavigationPage.HasNavigationBar="False">
 
     <ContentPage.Resources>
@@ -18,12 +21,12 @@
     </ContentPage.Resources>
 
     <Grid RowDefinitions="*, 200">
-        <CollectionView x:Name="CollectionViewTransactions">
+        <CollectionView ItemsSource="{Binding Items}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid Padding="15" ColumnDefinitions="50, *, Auto">
                         <Grid.GestureRecognizers>
-                            <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="TapGestureRecognizerTapped_To_Edit" />
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TransactionListViewModel}}, Path=EditCommand}" CommandParameter="{Binding .}" />
                         </Grid.GestureRecognizers>
                         <Border
                             BackgroundColor="{Binding Name, Converter={StaticResource TransactionNameColorConverter}}"
@@ -32,7 +35,7 @@
                             StrokeShape="RoundRectangle 20"
                             WidthRequest="40">
                             <Border.GestureRecognizers>
-                                <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="TapGestureRecognizerTapped_To_Delete" />
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TransactionListViewModel}}, Path=DeleteCommand}" CommandParameter="{Binding .}" />
                             </Border.GestureRecognizers>
                             <Label
                                 Margin="{OnPlatform WinUI='9,2',
@@ -72,16 +75,16 @@
                     Text="Saldo"
                     TextColor="#979797" />
                 <Label
-                    x:Name="LabelBalance"
                     Grid.Row="1"
                     Margin="10,0"
                     FontSize="36"
+                    Text="{Binding LabelBalance}"
                     TextColor="White" />
                 <Button
                     Grid.RowSpan="2"
                     Grid.Column="1"
                     Padding="0"
-                    Clicked="OnButtonClicked_To_TransactionAdd"
+                    Command="{Binding AddCommand}"
                     CornerRadius="27"
                     FontSize="{OnPlatform Default=48,
                                           Android=36}"
@@ -97,10 +100,10 @@
                     Text="Receitas"
                     TextColor="#979797" />
                 <Label
-                    x:Name="LabelIncome"
                     Grid.Row="4"
                     Margin="10,0"
                     FontSize="12"
+                    Text="{Binding LabelIncome}"
                     TextColor="White" />
 
                 <Label
@@ -110,10 +113,10 @@
                     Text="Despesas"
                     TextColor="#979797" />
                 <Label
-                    x:Name="LabelExpense"
                     Grid.Row="4"
                     Grid.Column="1"
                     FontSize="12"
+                    Text="{Binding LabelExpense}"
                     TextColor="White" />
             </Grid>
         </Border>

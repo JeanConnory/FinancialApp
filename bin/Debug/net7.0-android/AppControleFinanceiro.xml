@@ -91,6 +91,42 @@
         <member name="P:AppControleFinanceiro.ViewModels.TransactionEditViewModel.CursorEntryCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionEditViewModel.CursorEntry(Microsoft.Maui.Controls.Entry)"/>.</summary>
         </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.Items">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.items"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.Name">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.name"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.Date">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.date"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.LabelBalance">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.labelBalance"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.LabelIncome">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.labelIncome"/>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.LabelExpense">
+            <inheritdoc cref="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.labelExpense"/>
+        </member>
+        <member name="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.addCommand">
+            <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionListViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionListViewModel.Delete(AppControleFinanceiro.Models.Transaction)"/>.</summary>
+        </member>
+        <member name="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.editCommand">
+            <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.EditCommand"/>.</summary>
+        </member>
+        <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.EditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionListViewModel.Edit(AppControleFinanceiro.Models.Transaction)"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color

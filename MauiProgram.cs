@@ -50,7 +50,8 @@ public static class MauiProgram
 		mauiAppBuilder.Services.AddTransient<TransactionEdit>();
 		mauiAppBuilder.Services.AddTransient<TransactionEditViewModel>();
 		mauiAppBuilder.Services.AddTransient<TransactionList>();
+        mauiAppBuilder.Services.AddTransient<TransactionListViewModel>();
 
-		return mauiAppBuilder;
+        return mauiAppBuilder;
 	}
 }

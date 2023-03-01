@@ -19,28 +19,29 @@ public partial class TransactionList : ContentPage
 	{
 		_repository = repository;
 		InitializeComponent();
-		Reload();
+		BindingContext = new TransactionListViewModel(repository, Navigation);
+		//Reload();
 
 		// Subscribe
-		WeakReferenceMessenger.Default.Register<string>(this, (e, msg) =>
-		{
-			Reload();
-		});
+		//WeakReferenceMessenger.Default.Register<string>(this, (e, msg) =>
+		//{
+		//	Reload();
+		//});
 
 	}
 
 	private void Reload()
 	{
-		var items = _repository.GetAll();
-		CollectionViewTransactions.ItemsSource = _repository.GetAll();
+		//var items = _repository.GetAll();
+		//CollectionViewTransactions.ItemsSource = _repository.GetAll();
 
-		double income = items.Where(a => a.Type == Models.TransactionType.Income).Sum(a => a.Value);
-		double expense = items.Where(a => a.Type == Models.TransactionType.Expense).Sum(a => a.Value);
-		double balance = income - expense;
+		//double income = items.Where(a => a.Type == Models.TransactionType.Income).Sum(a => a.Value);
+		//double expense = items.Where(a => a.Type == Models.TransactionType.Expense).Sum(a => a.Value);
+		//double balance = income - expense;
 
-		LabelIncome.Text = income.ToString("C");
-		LabelExpense.Text = expense.ToString("C");
-		LabelBalance.Text = balance.ToString("C");
+		//LabelIncome.Text = income.ToString("C");
+		//LabelExpense.Text = expense.ToString("C");
+		//LabelBalance.Text = balance.ToString("C");
 	}
 
 	private void OnButtonClicked_To_TransactionAdd(object sender, EventArgs e)
@@ -50,32 +51,32 @@ public partial class TransactionList : ContentPage
 		Navigation.PushModalAsync(transactionAdd);
     }
 
-	private void TapGestureRecognizerTapped_To_Edit(object sender, TappedEventArgs e)
-	{
-		var grid = (Grid)sender;
-		var gesture = (TapGestureRecognizer)grid.GestureRecognizers[0];
-		Transaction transaction = (Transaction)gesture.CommandParameter;
+	//private void TapGestureRecognizerTapped_To_Edit(object sender, TappedEventArgs e)
+	//{
+	//	var grid = (Grid)sender;
+	//	var gesture = (TapGestureRecognizer)grid.GestureRecognizers[0];
+	//	Transaction transaction = (Transaction)gesture.CommandParameter;
 
-		var transactionEdit = new TransactionEdit(_repository, transaction);//Handler.MauiContext.Services.GetService<TransactionEdit>();
-		//transactionEdit.SetTransactionToEdit(transaction);
-		Navigation.PushModalAsync(transactionEdit);
-	}
+	//	var transactionEdit = new TransactionEdit(_repository, transaction);//Handler.MauiContext.Services.GetService<TransactionEdit>();
+	//	//transactionEdit.SetTransactionToEdit(transaction);
+	//	Navigation.PushModalAsync(transactionEdit);
+	//}
 
-	private async void TapGestureRecognizerTapped_To_Delete(object sender, TappedEventArgs e)
-	{
-		await AnimationBorder((Border)sender, true);
-		bool result = await App.Current.MainPage.DisplayAlert("Excluir!", "Tem certeza que deseja excluir?", "Sim", "Não");
+	//private async void TapGestureRecognizerTapped_To_Delete(object sender, TappedEventArgs e)
+	//{
+	//	await AnimationBorder((Border)sender, true);
+	//	bool result = await App.Current.MainPage.DisplayAlert("Excluir!", "Tem certeza que deseja excluir?", "Sim", "Não");
 
-		if (result)
-		{
-			Transaction transaction = (Transaction)e.Parameter;
-			_repository.Delete(transaction);
+	//	if (result)
+	//	{
+	//		Transaction transaction = (Transaction)e.Parameter;
+	//		_repository.Delete(transaction);
 
-			Reload();
-		}
-		else
-			await AnimationBorder((Border)sender, false);
-	}
+	//		Reload();
+	//	}
+	//	else
+	//		await AnimationBorder((Border)sender, false);
+	//}
 
 	private Color _borderOroginalBackgroundColor;
 	private string _labelOriginalText;
