@@ -1,6 +1,9 @@
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.runtimeconfig.json
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.pdb
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Bertuzzi.MAUI.ConvertersPack.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
+E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\LiteDB.dll
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
@@ -219,6 +222,7 @@ E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs
@@ -272,6 +276,3 @@ E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\refint\App
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.pdb
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\AppControleFinanceiro.genruntimeconfig.cache
 E:\Mobile\AppControleFinanceiro\obj\Debug\net7.0-ios\iossimulator-x64\ref\AppControleFinanceiro.dll
-E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\Bertuzzi.MAUI.ConvertersPack.dll
-E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
-E:\Mobile\AppControleFinanceiro\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll

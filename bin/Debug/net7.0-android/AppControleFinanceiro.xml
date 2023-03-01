@@ -119,7 +119,7 @@
             <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.DeleteCommand"/>.</summary>
         </member>
         <member name="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.DeleteCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionListViewModel.Delete(AppControleFinanceiro.Models.Transaction)"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppControleFinanceiro.ViewModels.TransactionListViewModel.Delete(Microsoft.Maui.Controls.Border)"/>.</summary>
         </member>
         <member name="F:AppControleFinanceiro.ViewModels.TransactionListViewModel.editCommand">
             <summary>The backing field for <see cref="P:AppControleFinanceiro.ViewModels.TransactionListViewModel.EditCommand"/>.</summary>

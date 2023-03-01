@@ -4,7 +4,6 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:AppControleFinanceiro.Libraries.Converters"
-    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:viewmodel="clr-namespace:AppControleFinanceiro.ViewModels"
     Title="TransactionList"
     x:DataType="viewmodel:TransactionListViewModel"
@@ -29,13 +28,14 @@
                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TransactionListViewModel}}, Path=EditCommand}" CommandParameter="{Binding .}" />
                         </Grid.GestureRecognizers>
                         <Border
+                            x:Name="Borda"
                             BackgroundColor="{Binding Name, Converter={StaticResource TransactionNameColorConverter}}"
                             HeightRequest="40"
                             Stroke="Transparent"
                             StrokeShape="RoundRectangle 20"
                             WidthRequest="40">
                             <Border.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TransactionListViewModel}}, Path=DeleteCommand}" CommandParameter="{Binding .}" />
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TransactionListViewModel}}, Path=DeleteCommand}" CommandParameter="{x:Reference Borda}" />
                             </Border.GestureRecognizers>
                             <Label
                                 Margin="{OnPlatform WinUI='9,2',

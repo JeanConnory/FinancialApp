@@ -1,16 +1,10 @@
 ﻿using AppControleFinanceiro.Models;
 using AppControleFinanceiro.Repositories;
 using AppControleFinanceiro.Views;
-using CommunityToolkit.Maui.Core.Extensions;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CommunityToolkit.Mvvm.Messaging;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppControleFinanceiro.ViewModels
 {
@@ -71,9 +65,13 @@ namespace AppControleFinanceiro.ViewModels
         }
 
         [RelayCommand]
-        async void Delete(Transaction transaction)
+        async void Delete(Border parametro) //passei a borda como parametro pra conseguir executar a animação
         {
-            //await AnimationBorder(borda, true);
+            if (parametro == null)
+                return;
+
+            var transaction = (Transaction)parametro.BindingContext;
+            await AnimationBorder(parametro, true);
             bool result = await App.Current.MainPage.DisplayAlert("Excluir!", "Tem certeza que deseja excluir?", "Sim", "Não");
 
             if (result)
@@ -81,8 +79,8 @@ namespace AppControleFinanceiro.ViewModels
                 _repository.Delete(transaction);
                 Reload();
             }
-            //else
-            //    await AnimationBorder(borda, false);
+            else
+                await AnimationBorder(parametro, false);
         }
 
         [RelayCommand]

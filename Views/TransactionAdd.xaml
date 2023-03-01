@@ -12,7 +12,6 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <converterPack:CurrencyConverter x:Key="CurrencyConverter" />
-            <!--<util:CurrencyConverter x:Key="currencyConverter" />-->
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -90,6 +89,5 @@
             Command="{Binding AddCommand}"
             HorizontalOptions="Center"
             Text="Salvar" />
-        <!--  Clicked="OnButtonClicked_Save"  -->
     </VerticalStackLayout>
 </ContentPage>
