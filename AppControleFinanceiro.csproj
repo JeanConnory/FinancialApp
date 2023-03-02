@@ -50,7 +50,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Libraries\Converters\CurrencyConverter.cs" />
 	  <Compile Remove="Libraries\ObservableObject.cs" />
 	</ItemGroup>
 

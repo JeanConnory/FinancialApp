@@ -56,8 +56,8 @@ public partial class TransactionList : ContentPage
 		var gesture = (TapGestureRecognizer)grid.GestureRecognizers[0];
 		Transaction transaction = (Transaction)gesture.CommandParameter;
 
-		var transactionEdit = new TransactionEdit(_repository, transaction);//Handler.MauiContext.Services.GetService<TransactionEdit>();
-		//transactionEdit.SetTransactionToEdit(transaction);
+		var transactionEdit =Handler.MauiContext.Services.GetService<TransactionEdit>();
+		transactionEdit.SetTransactionToEdit(transaction);
 		Navigation.PushModalAsync(transactionEdit);
 	}
 
