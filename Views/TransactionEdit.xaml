@@ -49,7 +49,8 @@
             Margin="30,0"
             IsVisible="{Binding LabelErrorIsVisible}"
             Text="{Binding LabelError}"
-            TextColor="Red" />
+            TextColor="{AppThemeBinding Light='Red',
+                                        Dark='#F37474'}" />
         <Grid Margin="30,0" ColumnDefinitions="*,*">
             <RadioButton
                 x:Name="RadioIncome"
